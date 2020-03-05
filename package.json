@@ -1,0 +1,17 @@
+{
+    "name": "0x-deployer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "Apache-2.0",
+    "scripts": {
+        "deploy": "node ./src/deploy.js"
+    },
+    "dependencies": {
+        "colors": "^1.4.0",
+        "flex-contract": "^2.1.1",
+        "lodash": "^4.17.15",
+        "node-fetch": "^2.6.0",
+        "solpp": "^0.11.2",
+        "yargs": "^15.1.0"
+    }
+}
